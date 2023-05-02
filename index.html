@@ -6,19 +6,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>API Pokemon</title>
 </head>
 
 <body>
-    <header>
-        <h1>PokéAPI</h1>
-    </header>
+    <div class="poke_box">
+        <div class="pokeball">
+            <div class="pokeball__button"></div>
+        </div>
+    </div>
     <main>
-        <h2>Choisis ton Pokemon</h2>
-        <form action="" method="GET">
-            <input type="text" name="pokemon" id="pokemon">
-            <input type="button" id="submit">
-        </form>
+        <div class="header">
+            <h2>Choisis ton Pokemon</h2>
+            <form action="" method="GET">
+                <input type="text" name="pokemon" id="pokemon">
+                <input type="button" id="submit" value="Envoyer">
+            </form>
+        </div>
         <div class="flex" id="cardContainer">
         </div>
     </main>
